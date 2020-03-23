@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task 1</title>
+</head>
+<body>
+    let name = "Aanuoluwapo";
+    const courses = ["Front end", "UX/UI", "Coding"];
+    console.log("My name is " + name);
+    console.log("The courses I registered for are " + courses);
+    const odd = [];
+    for (let i=1; i<=200; i++) {
+        if (i%2===1){
+            odd.push(i);
+        }
+    }
+    console.log(odd)
+</body>
+</html>
